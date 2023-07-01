@@ -44,8 +44,8 @@ jobs:
                     #- echo 'username, password'  $DOCKER_USERNAME $DOCKER_PASSWORD
                     # Pushing 
                     echo '_____________beginning push image'
-                    docker push thanhluong1515/udagram-api-feed:v3
-                    docker push thanhluong1515/udagram-api-user:v3
-                    docker push thanhluong1515/udagram-frontend:v3
-                    docker push thanhluong1515/reverseproxy:v3
+                    docker push thanhluong1515/udagram-api-feed:v1
+                    docker push thanhluong1515/udagram-api-user:v1
+                    docker push thanhluong1515/udagram-frontend:v1
+                    docker push thanhluong1515/reverseproxy:v1
           
