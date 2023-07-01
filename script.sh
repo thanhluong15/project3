@@ -21,7 +21,7 @@ kubectl expose deployment reverseproxy --type=LoadBalancer --name=publicreversep
 
 kubectl expose deployment frontend --type=LoadBalancer --name=publicfrontend
 
-kubectl set image deployment frontend frontend=thanhluong1515/udagram-frontend:v1
+kubectl set image deployment frontend frontend=thanhluong1515/udagram-frontend:v4
 
 kubectl rollout restart deployment/api-feed          
 
