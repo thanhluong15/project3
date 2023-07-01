@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: thanhluong1515/reverseproxy:v1
+        image: thanhluong1515/reverseproxy:v2
         ports:
         - containerPort: 8080
         resources:
